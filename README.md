@@ -1,12 +1,10 @@
-# eleventy-i18n
+# Logicdan docs
 
-Minimal starter for localized content, using Eleventy's own Internationalization (I18n) plugin.
-
-In an article on my personal website, I describe the structure of the starter and the decisions behind it: https://www.lenesaile.com/en/blog/internationalization-with-eleventy-20-and-netlify/
+The logicdan.com documentation with instructions, terms and guides
 
 ## Preview
 
-https://eleventy-i18n.netlify.app
+https://docs.logicdan.com
 
 ## Development
 
@@ -18,7 +16,7 @@ npm install
 
 ### Working locally
 
-Starts development server by default on `http://localhost:8080`. Watches tasks to compile when changes detected.
+Starts development server by default on `http://localhost:8081`. Watches tasks to compile when changes detected.
 Remember to manually change to a local folder: `http://localhost:8081/en/`. Redirects are only working on the server.
 
 ```

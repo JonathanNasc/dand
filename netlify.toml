@@ -7,10 +7,10 @@
 
 [[redirects]]
   from = "/"
-  to = "/de"
+  to = "/pt"
   status = 302
   force= true
-  conditions = {Language = ["de"]}
+  conditions = {Language = ["pt"]}
 
 [[redirects]]
   from = "/"
@@ -28,8 +28,8 @@
 # redirect the 404 pages to your specific variant.
 
 [[redirects]]
-  from = "/de/*"
-  to = "/de/404"
+  from = "/pt/*"
+  to = "/pt/404"
   status = 404
 
 [[redirects]]

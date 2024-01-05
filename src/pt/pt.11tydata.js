@@ -1,5 +1,5 @@
 module.exports = {
-  lang: 'de',
+  lang: 'pt',
   permalink: function (data) {
     // Slug override for localized URL slugs
     if (data.slugOverride) {

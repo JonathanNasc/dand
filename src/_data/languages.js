@@ -6,12 +6,12 @@ module.exports = {
     ariaPrimary: 'Primary',
     ariaLang: 'Change language'
   },
-  de: {
+  pt: {
     dir: '',
-    availableText: 'Diese Seite ist auch verfügbar in:',
-    skipText: 'Zum Hauptinhalt springen',
-    ariaPrimary: 'Primär',
-    ariaLang: 'Sprache ändern'
+    availableText: 'Esta pagina também está disponível em:',
+    skipText: 'Ir para o conteúdo principal',
+    ariaPrimary: 'Primário',
+    ariaLang: 'Mudar idioma'
   },
   es: {
     dir: '',

@@ -5,8 +5,8 @@ module.exports = {
       url: '/en/'
     },
     {
-      text: 'About me',
-      url: '/en/about-me/'
+      text: 'Terms',
+      url: '/en/terms/'
     }
   ],
   es: [
@@ -15,18 +15,18 @@ module.exports = {
       url: '/es/'
     },
     {
-      text: 'Sobre mí',
-      url: '/es/sobre-mi/'
+      text: 'Términos',
+      url: '/es/terms/'
     }
   ],
-  de: [
+  pt: [
     {
-      text: 'Startseite',
-      url: '/de/'
+      text: 'Início',
+      url: '/pt/'
     },
     {
-      text: 'Über mich',
-      url: '/de/ueber-mich/'
+      text: 'Termos',
+      url: '/pt/terms/'
     }
   ]
 };
