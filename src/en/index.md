@@ -1,108 +1,114 @@
 ---
 title: 'Guide'
-description: 'Instructions and explanations about the operation of the website logicdan.com'
+description: 'Instructions and explanations about the functioning of the logicdan.com website'
 ---
 
-![logo](../assets/logicdan_logo.svg "Logicdan logo")
+[![logo](../assets/logicdan_logo.svg "Logicdan Logo")](https://logicdan.com)
 
-[Logicdan](https://logicdan.com) is a platform for logical tests. The goal of its users is to decipher the relationship between the number and the text presented in each challenge. Once the puzzle is solved, they should deduce the exact text corresponding to the next level.
+[Logicdan](https://logicdan.com) is a platform for logical tests. The goal of its users is to decipher the relationship between the number and the text presented in each challenge. Once the puzzle is solved, they must deduce the exact text corresponding to the next level.
 
-If the attempt is correct, rewards and progress indicators will be recorded, and a slightly more challenging challenge will be presented. Otherwise, new attempts can be made, or alternatively, the cycle can be restarted, presenting a new sequence of [likely] unprecedented challenges.
+If the attempt is correct, rewards and progress indicators will be recorded, and a slightly more difficult challenge will be presented. Otherwise, new attempts can be applied, or alternatively, the cycle can be restarted, presenting a new sequence of [probably] unprecedented challenges.
 
 Check the following topics for more details about the Logicdan platform:
 
 - [How does it work?](#how-it-works) (detailed explanation)
 - [How to get bolts (<span class="bolt"></span>)?](#how-to-get-bolts)
-- [How does Logicdan moderate cheaters?](#how-cheaters-are-moderated)
+- [How Logicdan moderates cheaters?](#how-cheaters-are-moderated)
 - [How to propose a good challenge?](#how-to-propose-good-challenges)
 - [Glossary](#glossary)
 
 ## <a name="how-it-works"></a>How does it work?
 
-The main concept to understand is that each Logicdan challenge consists of a set of level and puzzle:
+The main concept to understand is that each Logicdan challenge is composed of a level and an enigma, as explained below:
 
-- **Level** is a number from `1` to `9` displayed in the central circle, above the puzzle, between two other circles representing the previous and next levels
-- **Enigma** is a text composed of letters, numbers, and/or various characters, displayed prominently in the center of the ranked mode page
+<img class="print-screen" src="../assets/logicdan-screen.png" alt="logicdan printscreen">
 
-Consider the following example:
+- **Level** <span class="screen-index">A</span> is a number from `1` to `9` displayed in the central circle, above the enigma. Click on it to view information about the presented challenge.
+- **Enigma** <span class="screen-index">B</span> is a text composed of letters, numbers, and/or various characters.
+
+Consider the following rational:
 
 |   |   |
 |---|:-:|
-| 1 →|One|
+| 1 →|uno|
 | 2 →| 	<font color=#26c9d1>?</font> |
 
-This level `1` challenge presents the puzzle `One`. The text that, following the same logic, allows advancing to the next level (in this example `2`) is probably `Two`. Note that the character sequence must follow the same pattern, maintaining the first letter in uppercase.
+This level `1` challenge presents the enigma `uno`. The text that should be entered in the solution field <span class="screen-index">D</span> is probably `dos`. When you press the key <span class="screen-index">E</span> (by clicking on it or pressing the enter key), its color will change to shades of green, and a new challenge from the next level will be presented.
 
-The complexity of challenges increases as the level number becomes higher. The following example demonstrates this evolution:
+Note that the proposed solution must follow the same logical pattern. In this case, the most noticeable rule is that all letters are lowercase. If an incorrect solution, for example, `Dos`, is entered in the solution field <span class="screen-index">D</span>, when testing, the color of the key <span class="screen-index">E</span> will change to shades of red, and the current challenge will be maintained.
+
+The complexity of the challenges increases in the same proportion as the level number becomes higher. The following rational demonstrates an evolution of logical complexity proportional to the challenge level:
 
 |   |   |
 |---|:-:|
-| 4 →|dw|
-| 5 →| 	<font color=#26c9d1>?</font> |
+| 4 →|awbXcydz|
+| 3 →| 	<font color=#26c9d1>?</font> |
 
-This level `4` challenge presents the puzzle `dw`. Therefore, it is likely that the text corresponding to level `5`, following the same logic, is `fv`, because "d" is the fourth letter of the Latin alphabet, while "w" is the fourth letter in reverse order.
+This hypothetical level `4` challenge presents the enigma `awbXcydz`. The reasoning to be deciphered is "the first four and last four letters of the Latin alphabet alternate to form a word whose fourth letter is the only uppercase letter." Therefore, the reasoning equivalent to the next level is "the first five and last five letters of the Latin alphabet alternate to form a word whose fifth letter is the only uppercase letter," that is, `avbwCxdyez`.
 
 ### Ranked mode
 
-This is the main way to interact with challenges on the Logicdan platform. In the corresponding tab, if logged in, the same challenge will be presented until it is solved or the level is restarted.
+It is the main way to interact with the challenges of the Logicdan platform. In the corresponding tab, if you are logged in, the same enigma <span class="screen-index">A</span> will be presented until it is solved or the level is restarted <span class="screen-index">C</span>.
 
 Solving a challenge can generate three types of rewards:
 
-- **Bolts <span class="bolt"></span>**: for each challenge solved above level 2, the reward is 1 bolt. Bolts can be obtained in various ways and can be used to unlock features. [Read the section "How to get bolts" for more information](#how-to-get-bolts).
-- **Unlocks <span class="unlock"></span>**: a number of unlocks equivalent to the level is added for each challenge solved above level 2. The quantity of unlocks for each user is the second criterion in the ranking order.
-- **Stars <span class="star"></span>**: the only way to obtain the reward of 1 star is by solving a level 9 challenge. The quantity of stars for each user is the main criterion in the rankings.
+- **Bolts <span class="bolt"></span>**: for each challenge higher than level 1 solved, the reward is 1 bolt. Bolts can be obtained in various ways and can be used to unlock features. [Read the "How to get bolts" section to learn more](#how-to-get-bolts).
+- **Unlocks <span class="unlock"></span>**: the number of unlocks equivalent to the level is added for each challenge higher than level 2 solved. The quantity of unlocks for each user is the second criterion in the ranking order.
+- **Stars <span class="star"></span>**: the only way to obtain the reward of 1 star is by solving a level 9 challenge. The quantity of stars for each user is the main criterion in the ranking order.
 
-Restarting the level may be recommendable if you feel that the difficulty of the current challenge is hindering your progress. Note that restarting the challenge requires bolts (<span class="bolt"></span>), except for level 1 challenges, due to their didactic and introductory nature. Also, be aware that restarting the challenge when you are already at an advanced level will put you further away from completing a level 9 challenge and obtaining your reward of 1 <span class="star"></span> and 10 <span class="bolt"></span>.
+Restarting the level <span class="screen-index">C</span> may be advisable if you feel that the difficulty of the current challenge is hindering your progress. Note that restarting the challenge requires bolts (<span class="bolt"></span>), except for level 1 challenges, due to their didactic and introductory nature. Also note that restarting the challenge when you are already at an advanced level will leave you further away from completing a level 9 challenge and obtaining your reward of 1 <span class="star"></span> and 5 <span class="bolt"></span>.
 
-There are two types of challenges presented in ranked mode: official challenges created by the Logicdan development team and challenges proposed by the community that have been evaluated and approved by moderators.
+There are two types of challenges presented in ranked mode: the official ones created by the development team and the challenges proposed by the community that have been evaluated and approved by moderators.
 
 ### Creative mode
 
-Challenges proposed by the community that have not yet been reviewed or have not been approved by moderators can be freely shared and tested. If solved, they do not generate rewards.
+Challenges proposed by the community that have not yet been reviewed or have not been approved by moderators can be shared and tested freely. If solved, they do not generate rewards.
 
 ## <a name="how-to-get-bolts"></a>How to get bolts <span class="bolt"></span>?
 
 | | |
 |:---|:---|
-|1 <span class="bolt"></span>|Solving challenges above level 1|
-|10 <span class="bolt"></span>|Earning <span class="star"></span> by completing level 9 challenges|
-|10 <span class="bolt"></span>| Having a bug reported, reviewed, and fixed|
-|3<font color=#26c9d1>x</font> <span class="bolt"></span>|Having proposed challenges approved. <font color=#26c9d1>x</font> being the challenge level|
-|<font color=#26c9d1>y</font> <span class="bolt"></span>|Making donations. <font color=#26c9d1>y</font> being a number between 1 and 250|
+|1 <span class="bolt"></span>|Solving challenges higher than level 1|
+|5 <span class="bolt"></span>|Earning <span class="star"></span> by completing level 9 challenges|
+|10 <span class="bolt"></span>|Registering on the platform|
+|15 <span class="bolt"></span>|Having reported bugs reviewed and fixed|
+|3<font color=#26c9d1>x</font> <span class="bolt"></span>|Having proposed challenges approved. Being <font color=#26c9d1>x</font> the level of the challenge|
+|<font color=#26c9d1>y</font> <span class="bolt"></span>|Making donations. Being <font color=#26c9d1>y</font> a number between 1 and 250|
 
 Bolts (<span class="bolt"></span>) can be used to restart challenge cycles in ranked mode and submit challenge proposals.
 
 ## <a name="how-cheaters-are-moderated"></a>How cheaters are moderated?
 
-As described on the [terms page](/en/terms), the disclosure, by any means, of resolutions to challenges above level 4, as well as their use for illegitimate progress, is prohibited. Non-compliance with this rule may result in account deactivation.
+As described on the [terms page](/en/terms), the disclosure, by any means, of solutions to challenges higher than level 4 is prohibited, as well as their use for illegitimate progress. Non-compliance with this rule may result in account deactivation.
 
 ## <a name="how-to-propose-good-challenges"></a>How to propose good challenges?
 
 The three main criteria considered in the evaluation of challenges proposed by the community are:
 
-- The registered solution must be consistent with the puzzle text, and the rationale must be satisfactorily free of ambiguities.
-- The level of difficulty must correspond to the challenge level.
-- The solution applied to the proposed rationale must be immutable. Non-definitive conditions (for example: ranking of most valuable companies in the stock market) should be avoided.
+- The registered solution must be consistent with the enigma text, and the described explanation must be satisfactorily free of ambiguities.
+- The difficulty level must correspond to the challenge level.
+- The solution applied to the proposed reasoning must be immutable. Non-definitive conditions (for example: ranking of the most valuable companies on the stock exchange) should be avoided.
 
-To track the review process, check the status of your challenge on the creative mode screen.
+To follow the review process, check the status of your challenge on the creative mode screen.
 
 |status|description|
 |:---|:---|
-|NR|Not Reviewed: once evaluated, another status will be assigned to your challenge|
-|RE|Regularized: your challenge has been added to the ranked mode|
-|DU|Duplicate: there is another identical one, so it will not be added to the ranked mode|
-|NA|Not Approved: the challenge will not be added to the ranked mode|
+|NR|Not reviewed: as soon as evaluated, another status will be assigned to your challenge|
+|RE|Ready: your challenge has been added to ranked mode|
+|DU|Duplicate: there is another identical one, so it will not be added to ranked mode|
+|NA|Not approved: the challenge will not be added to ranked mode|
 |XM|Removed: the challenge cannot be tested and shared|
-
 
 ## <a name="glossary"></a>Glossary
 
-- **Enigma**: encrypted text related to the challenge's level number
-- **Level**: number from 1 to 9 representing the challenge difficulty
-- **Solution**: text corresponding to the next level, following the same logic that relates the current puzzle to the current level
-- **Challenge**: set of level, puzzle, and corresponding solution
-- **Cycle**: a sequence of challenges complete, starting from level 1 up to 9
-- **Rationale**: description of the logic applied in the challenge
+- **Enigma** <span class="screen-index">B</span>: encrypted text related to the level number of the challenge
+- **Level** <span class="screen-index">A</span>: number from 1 to 9 representing the difficulty of the challenge
+- **Solution** <span class="screen-index">D</span>: text corresponding to the next level, following the same logic that relates the current enigma to the current level
+- **Challenge**: set of level, enigma, and corresponding solution
+- **Key** <span class="screen-index">E</span>: button used to test a solution
+- **Cycle**: a complete sequence of challenges, ranging from level 1 to 9
+- **Reasoning**: or explanation, is the description of the logic applied in the challenge
+- **Rational**: it is the conjunction of the current level, enigma, next level, and unknown that results in a formula similar to the [rule of three](https://en.wikipedia.org/wiki/Cross-multiplication#Rule_of_three). It serves to assist reasoning through a visual representation.
 - **Bolts <span class="bolt"></span>**: reward that unlocks special actions such as submitting challenge proposals and restarting cycles
-- **Stars <span class="star"></span>**: the number representing the quantity of cycles a user has completed in ranked gameplay
-- **Unlocks <span class="unlock"></span>**: sum of levels solved by a user (excluding level 1 challenges)
+- **Stars <span class="star"></span>**: it is the number representing the amount of cycles a user has completed in ranked game mode
+- **Unlocks <span class="unlock"></span>**: sum of the levels already solved by a user (excluding level 1 challenges)

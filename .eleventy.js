@@ -9,6 +9,7 @@ module.exports = function (eleventyConfig) {
   [
     'src/favicon.ico',
     'src/styles.css',
+    'src/assets/logicdan-screen.png',
     'src/assets/bolt.svg',
     'src/assets/star.svg',
     'src/assets/unlock.svg',
