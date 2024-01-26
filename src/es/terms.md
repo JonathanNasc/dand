@@ -1,7 +1,7 @@
 ---
 title: 'Términos'
 description: 'Conoce los términos de uso del sitio logicdan.com'
-slugOverride: 'términos'
+slugOverride: 'terms'
 ---
 
 *Política de uso de la plataforma Logicdan versión 1.0.1*
@@ -26,4 +26,4 @@ Con el objetivo de ofrecer transparencia sobre los intereses y expectativas de l
 
 9. **Compartir soluciones de los desafíos**: Se prohíbe la divulgación, por cualquier medio, de soluciones de desafíos de nivel superior a 4, así como su uso para un progreso ilegítimo. Los desafíos de nivel superior a 4 compartidos serán desactivados y los usuarios involucrados podrían ser expulsados.
 
-10. **Sobre pagos y soporte**: La versión actual de los servidores de Logicdan fue desarrollada para brindar una experiencia fluida y libre de fallos. Sin embargo, como cualquier sistema, puede presentar inconsistencias. Al realizar un pago a través de los medios de apoyo a los desarrolladores de la plataforma, considere su acto, en primer lugar, como una ayuda para el mantenimiento de los servidores y la cobertura de costos. En caso de problemas, envíe un correo electrónico a **[help@logicdan.com](mailto:help@logicdan.com)**, proporcionando información para la evaluación individual. Tenga en cuenta que, si optó por registrarse en la plataforma sin proporcionar su correo electrónico, las opciones de soporte serán más limitadas.
+10. **Sobre pagos y soporte**: La versión actual de los servidores de Logicdan fue desarrollada para brindar una experiencia fluida y libre de fallos. Sin embargo, como cualquier sistema, puede presentar inconsistencias. Al realizar un pago a través de los medios de apoyo a los desarrolladores de la plataforma, considere su acto, en primer lugar, como una ayuda para el mantenimiento de los servidores y la cobertura de costos. En caso de problemas, reporte el error por medio del link al final de la página logicdan.com, proporcionando información para la evaluación individual. Tenga en cuenta que, si optó por registrarse en la plataforma sin proporcionar su correo electrónico, las opciones de soporte serán más limitadas.

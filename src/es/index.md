@@ -5,15 +5,11 @@ description: 'Instrucciones y explicaciones sobre el funcionamiento del sitio lo
 
 [![logo](../assets/logicdan_logo.svg "Logo de Logicdan")](https://logicdan.com)
 
-[Logicdan](https://logicdan.com) es una plataforma de pruebas lógicas. El objetivo de sus usuarios es descifrar la relación entre el número y el texto presentados en cada desafío. Una vez resuelto el enigma, deberán deducir cuál es el texto exacto correspondiente al siguiente nivel.
+[Logicdan](https://logicdan.com) es una plataforma de pruebas lógicas. Consulte los siguientes temas para obtener más detalles:
 
-Si el intento es correcto, se registrarán recompensas e indicadores de progreso, y se presentará un desafío ligeramente más difícil. De lo contrario, se puede aplicar nuevos intentos o, alternativamente, se puede reiniciar el ciclo, lo que presentará una nueva secuencia de desafíos [probablemente] inéditos.
-
-Consulte los siguientes temas para obtener más detalles sobre la plataforma Logicdan:
-
-- [¿Cómo funciona?](#how-it-works) (explicación detallada)
+- [¿Cómo funciona?](#how-it-works)
 - [¿Cómo obtener bolts (<span class="bolt"></span>)?](#how-to-get-bolts)
-- [¿Cómo moderar a los tramposos en Logicdan?](#how-cheaters-are-moderated)
+- [¿Cómo se moderan a los tramposos?](#how-cheaters-are-moderated)
 - [¿Cómo proponer un buen desafío?](#how-to-propose-good-challenges)
 - [Glosario](#glossary)
 

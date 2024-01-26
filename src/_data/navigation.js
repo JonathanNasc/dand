@@ -21,11 +21,11 @@ module.exports = {
   ],
   pt: [
     {
-      text: 'guia',
+      text: 'Guia',
       url: '/pt'
     },
     {
-      text: 'termos',
+      text: 'Termos',
       url: '/pt/terms'
     }
   ]

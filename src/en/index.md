@@ -5,13 +5,9 @@ description: 'Instructions and explanations about the functioning of the logicda
 
 [![logo](../assets/logicdan_logo.svg "Logicdan Logo")](https://logicdan.com)
 
-[Logicdan](https://logicdan.com) is a platform for logical tests. The goal of its users is to decipher the relationship between the number and the text presented in each challenge. Once the puzzle is solved, they must deduce the exact text corresponding to the next level.
+[Logicdan](https://logicdan.com) is a platform for logical tests. Check the following topics for more details:
 
-If the attempt is correct, rewards and progress indicators will be recorded, and a slightly more difficult challenge will be presented. Otherwise, new attempts can be applied, or alternatively, the cycle can be restarted, presenting a new sequence of [probably] unprecedented challenges.
-
-Check the following topics for more details about the Logicdan platform:
-
-- [How does it work?](#how-it-works) (detailed explanation)
+- [How does it work?](#how-it-works)
 - [How to get bolts (<span class="bolt"></span>)?](#how-to-get-bolts)
 - [How Logicdan moderates cheaters?](#how-cheaters-are-moderated)
 - [How to propose a good challenge?](#how-to-propose-good-challenges)
