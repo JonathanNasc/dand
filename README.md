@@ -2,10 +2,6 @@
 
 The logicdan.com documentation with instructions, terms and guides
 
-## Preview
-
-https://docs.logicdan.com
-
 ## Development
 
 ### Install dependencies
@@ -24,6 +20,14 @@ npm start
 ```
 
 ### Creating a production build
+
+create a .env file with the following content
+
+```
+URL=http://logicdan.com/docs
+```
+
+build the project
 
 ```
 npm run build

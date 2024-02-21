@@ -1,3 +1,4 @@
+require('dotenv').config()
 const {EleventyI18nPlugin} = require('@11ty/eleventy');
 
 module.exports = function (eleventyConfig) {
