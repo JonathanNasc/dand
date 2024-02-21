@@ -17,7 +17,7 @@ description: 'Instructions and explanations about the functioning of the logicda
 
 The main concept to understand is that each Logicdan challenge is composed of a level and an enigma, as explained below:
 
-<img class="print-screen" src="../assets/logicdan-screen.png" alt="logicdan printscreen">
+<img class="print-screen" src="{{ meta.url }}/assets/logicdan-screen.png" alt="logicdan printscreen">
 
 - **Level** <span class="screen-index">A</span> is a number from `1` to `9` displayed in the central circle, above the enigma. Click on it to view information about the presented challenge.
 - **Enigma** <span class="screen-index">B</span> is a text composed of letters, numbers, and/or various characters.

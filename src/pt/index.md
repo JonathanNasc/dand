@@ -17,7 +17,7 @@ description: 'Instruções e explicações sobre o funcionamento do site logicda
 
 O principal conceito a ser compreendido é que cada desafio de Logicdan é composto por um conjunto de nível e enigma, como explicado abaixo:
 
-<img class="print-screen" src="../assets/logicdan-screen.png" alt="logicdan printscreen">
+<img class="print-screen" src="{{ meta.url }}/assets/logicdan-screen.png" alt="logicdan printscreen">
 
 - **Nível** <span class="screen-index">A</span> é um número de `1` a `9` exibido no círculo central, acima do enigma. Clique sobre ele para visualizar informações a respeito do desafio apresentado.
 - **Enigma** <span class="screen-index">B</span> é um texto composto por letras, números e/ou caracteres diversos.
