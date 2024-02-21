@@ -3,7 +3,7 @@ title: 'Guia'
 description: 'Instruções e explicações sobre o funcionamento do site logicdan.com'
 ---
 
-[![logo](../assets/logicdan_logo.svg "Logo do Logicdan")](https://logicdan.com)
+[![logo](../assets/logicdan-logo.svg "Logo do Logicdan")](https://logicdan.com)
 
 [Logicdan](https://logicdan.com) é uma plataforma de testes lógicos. Confira os seguintes tópicos para ler mais detalhes:
 

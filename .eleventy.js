@@ -14,7 +14,7 @@ module.exports = function (eleventyConfig) {
     'src/assets/bolt.svg',
     'src/assets/star.svg',
     'src/assets/unlock.svg',
-    'src/assets/logicdan_logo.svg',
+    'src/assets/logicdan-logo.svg',
   ].forEach(item =>
     eleventyConfig.addPassthroughCopy(item)
   );
