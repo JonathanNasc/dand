@@ -1,32 +1,32 @@
 module.exports = {
   en: [
     {
-      text: 'Home',
-      url: '/en/'
+      text: 'Guide',
+      url: '/en'
     },
     {
-      text: 'About me',
-      url: '/en/about-me/'
+      text: 'Terms',
+      url: '/en/terms'
     }
   ],
   es: [
     {
-      text: 'Inicio',
-      url: '/es/'
+      text: 'Guía',
+      url: '/es'
     },
     {
-      text: 'Sobre mí',
-      url: '/es/sobre-mi/'
+      text: 'Términos',
+      url: '/es/terms'
     }
   ],
-  de: [
+  pt: [
     {
-      text: 'Startseite',
-      url: '/de/'
+      text: 'Guia',
+      url: '/pt'
     },
     {
-      text: 'Über mich',
-      url: '/de/ueber-mich/'
+      text: 'Termos',
+      url: '/pt/terms'
     }
   ]
 };

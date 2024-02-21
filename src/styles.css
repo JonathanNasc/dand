@@ -1,0 +1,177 @@
+
+.skip-link:not(:focus) {
+  clip: rect(0 0 0 0);
+  border: 0;
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* bahunya inline, unused removed */
+:root {
+  --background-body: #1e2033;
+  --background: #1e2033;
+  --background-bright: rgba(240, 246, 252, 0.15);
+  --background-alt: #1e2033;
+  --selection: #1c76c5;
+  --text-main: #adb6bfc6;
+  --text-bright: #dde3e9;
+  --text-muted: #8b949e;
+  --links: #e7def0ed;
+  --focus: #388bfd;
+  --focus-background: #0c2d6b;
+  --border: #21252c;
+  --border-muted: #21262d;
+  --border-bright: #8b949e;
+  --button-hover: #324759;
+  --monospace: SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace;
+  --sans-serif: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif
+}
+
+
+body {
+  font-size: 22px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Segoe UI Emoji, Apple Color Emoji, Noto Color Emoji, sans-serif;
+  font-family: var(--sans-serif);
+  line-height: 1.7;
+  max-width: 900px;
+  margin: 100px auto;
+  padding: 0 30px;
+  word-wrap: break-word;
+  color: var(--text-main);
+  background: var(--background-body);
+  text-rendering: optimizeLegibility
+}
+
+a {
+  text-decoration: none;
+  color: var(--links)
+}
+
+footer {
+  border-top: 1px solid var(--border);
+  color: var(--text-muted)
+}
+
+body>footer {
+  margin-top: 40px
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #11121b;
+  padding: 0 30px;
+}
+
+header nav:first-of-type {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  z-index: 999
+}
+
+header nav:first-of-type:before {
+  backdrop-filter: saturate(120%) blur(5px);
+  -webkit-backdrop-filter: saturate(180%) blur(5px);
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0
+}
+
+header nav:first-of-type a {
+  margin: 10px 20px 10px 0;
+  display: inline-block
+}
+
+header nav:first-of-type ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0 auto;
+  float: left;
+  padding: 0;
+  overflow: hidden;
+  display: inline
+}
+
+header nav:first-of-type>ul>li {
+  float: left
+}
+
+h2 {
+  margin-top: 100px;
+}
+
+h3 {
+  margin-top: 50px;
+}
+
+h2 a {
+  display: block;
+  scroll-margin-top: 100px
+}
+
+code {
+  background-color: #11121b;
+  padding: 2px 5px;
+}
+
+table {
+  margin-bottom: 20px
+}
+
+table th {
+  padding-right: 30px;
+}
+
+table td {
+  background: #363d4f;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+span.bolt, span.star, span.unlock {
+  background: #4d5464;
+  border-radius: 2px;
+}
+
+span.bolt::after {
+  content: url('./assets/bolt.svg');
+}
+
+span.star::after {
+  content: url('./assets/star.svg');
+}
+
+span.unlock::after {
+  content: url('./assets/unlock.svg');
+}
+
+.print-screen {
+  border-radius: 40px;
+  max-width: 800px;
+  width: 100%;
+}
+
+.screen-index { 
+  width: 25px;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  border-radius: 50%;
+  font-family: sans-serif;
+  background-color: #ffa57d;
+  color: #11121b;
+}

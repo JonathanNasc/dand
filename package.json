@@ -1,21 +1,21 @@
 {
-  "name": "eleventy-i18n",
+  "name": "dand",
   "version": "1.0.1",
-  "description": "Minimal starter for localized content, using Eleventy's own Internationalization (I18n) plugin",
+  "description": "Documentations for logicdan.com",
   "license": "ISC",
   "author": {
-    "name": "Lene Saile",
-    "url": "https://www.lenesaile.com/"
+    "name": "Jonathan from Logicdan",
+    "url": "https://logicdan.com/"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/11ty/eleventy-i18n.git"
+    "url": "git://github.com/JonathanNasc/dand.git"
   },
   "engines": {
     "node": ">=16.x.x"
   },
   "scripts": {
-    "start": "eleventy --serve --watch",
+    "start": "eleventy --serve --watch --port=8081",
     "build": "eleventy"
   },
   "dependencies": {

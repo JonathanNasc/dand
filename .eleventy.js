@@ -2,13 +2,19 @@ const {EleventyI18nPlugin} = require('@11ty/eleventy');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(EleventyI18nPlugin, {
-    defaultLanguage: 'en', // Required
-    errorMode: 'allow-fallback' // Opting out of "strict"
+    defaultLanguage: 'en',
+    errorMode: 'allow-fallback'
   });
 
-  eleventyConfig.addPassthroughCopy('src/favicon.ico');
-
-  ['src/favicon.ico', 'src/opengraph.jpg'].forEach(item =>
+  [
+    'src/favicon.ico',
+    'src/styles.css',
+    'src/assets/logicdan-screen.png',
+    'src/assets/bolt.svg',
+    'src/assets/star.svg',
+    'src/assets/unlock.svg',
+    'src/assets/logicdan_logo.svg',
+  ].forEach(item =>
     eleventyConfig.addPassthroughCopy(item)
   );
 
