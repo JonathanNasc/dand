@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang }}" dir="{{ languages[page.lang].dir or 'ltr' }}">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Docs Redirect</title>
+    <meta http-equiv="refresh" content="0; URL='{{ meta.url }}'"/>
+  </head>
+
+  <body>
+    <p>
+        Your browser does not support redirects!
+        <a href="{{ meta.url }}">See the docs here!</a>
+    </p>
+  </body>
+</html>

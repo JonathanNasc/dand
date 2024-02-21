@@ -2,31 +2,31 @@ module.exports = {
   en: [
     {
       text: 'Guide',
-      url: '/en'
+      url: process.env.URL + '/en'
     },
     {
       text: 'Terms',
-      url: '/en/terms'
+      url: process.env.URL + '/en/terms'
     }
   ],
   es: [
     {
       text: 'Guía',
-      url: '/es'
+      url: process.env.URL + '/es'
     },
     {
       text: 'Términos',
-      url: '/es/terms'
+      url: process.env.URL + '/es/terms'
     }
   ],
   pt: [
     {
       text: 'Guia',
-      url: '/pt'
+      url: process.env.URL + '/pt'
     },
     {
       text: 'Termos',
-      url: '/pt/terms'
+      url: process.env.URL + '/pt/terms'
     }
   ]
 };
