@@ -3,13 +3,14 @@ title: 'Guide'
 description: 'Instructions and explanations about the functioning of the logicdan.com website'
 ---
 
-[![logo](../assets/logicdan-logo.svg "Logicdan Logo")](https://logicdan.com)
+<a href="https://logicdan.com">
+  <img class="logo" src="{{ meta.url }}/assets/logicdan-logo.svg" alt="Logo do Logicdan" />
+</a>
 
 [Logicdan](https://logicdan.com) is a platform for logical tests. Check the following topics for more details:
 
 - [How does it work?](#how-it-works)
 - [How to get bolts (<span class="bolt"></span>)?](#how-to-get-bolts)
-- [How Logicdan moderates cheaters?](#how-cheaters-are-moderated)
 - [How to propose a good challenge?](#how-to-propose-good-challenges)
 - [Glossary](#glossary)
 
@@ -72,10 +73,6 @@ Challenges proposed by the community that have not yet been reviewed or have not
 |<font color=#26c9d1>y</font> <span class="bolt"></span>|Making donations. Being <font color=#26c9d1>y</font> a number between 1 and 250|
 
 Bolts (<span class="bolt"></span>) can be used to restart challenge cycles in ranked mode and submit challenge proposals.
-
-## <a name="how-cheaters-are-moderated"></a>How cheaters are moderated?
-
-As described on the [terms page](/en/terms), the disclosure, by any means, of solutions to challenges higher than level 4 is prohibited, as well as their use for illegitimate progress. Non-compliance with this rule may result in account deactivation.
 
 ## <a name="how-to-propose-good-challenges"></a>How to propose good challenges?
 

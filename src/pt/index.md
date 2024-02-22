@@ -3,13 +3,14 @@ title: 'Guia'
 description: 'Instruções e explicações sobre o funcionamento do site logicdan.com'
 ---
 
-[![logo](../assets/logicdan-logo.svg "Logo do Logicdan")](https://logicdan.com)
+<a href="https://logicdan.com">
+  <img class="logo" src="{{ meta.url }}/assets/logicdan-logo.svg" alt="Logo do Logicdan" />
+</a>
 
 [Logicdan](https://logicdan.com) é uma plataforma de testes lógicos. Confira os seguintes tópicos para ler mais detalhes:
 
 - [Como funciona?](#how-it-works)
 - [Como obter bolts (<span class="bolt"></span>)?](#how-to-get-bolts)
-- [Como Logicdan modera trapaceiros?](#how-cheaters-are-moderated)
 - [Como propor um bom desafio?](#how-to-propose-good-challenges)
 - [Glossário](#glossary)
 
@@ -31,7 +32,7 @@ Considere o seguinte racional:
 
 Este desafio de nível `1` apresenta o enigma `uno`. O texto que deve ser inserido no campo de solução <span class="screen-index">D</span>, provavelmente é `dos`. Ao acionar a chave <span class="screen-index">E</span> (clicando sobre ela, ou pressionando a tecla enter), sua cor mudará para tons de verde e um novo desafio do seguinte nível será apresentado.
 
-Note que a solução proposta deve seguir o mesmo padrão lógico, neste caso, a regra mais perceptível é que todas as letras são minúsculas. Caso uma solução incorreta, por exemplo `Dos`, seja inserida no campo de solução <span class="screen-index">D</span>, ao aplicar o teste, a cor da chave <span class="screen-index">E</span> mudará para tons de vermelho e o desafio atual será mantido.
+Note que a solução proposta deve seguir o mesmo padrão lógico. Neste caso, a regra mais perceptível é que todas as letras são minúsculas. Caso uma solução incorreta, por exemplo `Dos`, seja inserida no campo de solução <span class="screen-index">D</span>, ao aplicar a validação, a cor da chave <span class="screen-index">E</span> mudará para tons de vermelho indicando que a resposta está incorreta, portanto, o desafio atual será mantido.
 
 A complexidade dos desafios aumenta na mesma proporção em que o número do nível se torna mais elevado. O racional a seguir demonstra uma evolução de complexidade lógica, proporcional ao nível do desafio:
 
@@ -72,10 +73,6 @@ Desafios propostos pela comunidade que ainda não foram revisados, ou que não f
 |<font color=#26c9d1>y</font> <span class="bolt"></span>|Fazendo doações. Sendo <font color=#26c9d1>y</font> um número entre 1 e 250|
 
 Bolts (<span class="bolt"></span>) podem ser utilizados para reiniciar ciclos de desafios no modo ranqueado e enviar propostas de desafios.
-
-## <a name="how-cheaters-are-moderated"></a>Como trapaceiros são moderados?
-
-Conforme descrito na [página de termos](/pt/terms), é proibida a divulgação, por qualquer meio, de resoluções dos desafios de nível superior a 4, bem como sua utilização para progresso ilegítimo. O descumprimento desta regra poderá resultar na desativação da conta.
 
 ## <a name="how-to-propose-good-challenges"></a>Como propor bons desafios?
 

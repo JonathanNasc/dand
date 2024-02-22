@@ -3,13 +3,14 @@ title: 'Guía'
 description: 'Instrucciones y explicaciones sobre el funcionamiento del sitio logicdan.com'
 ---
 
-[![logo](../assets/logicdan-logo.svg "Logo de Logicdan")](https://logicdan.com)
+<a href="https://logicdan.com">
+  <img class="logo" src="{{ meta.url }}/assets/logicdan-logo.svg" alt="Logo do Logicdan" />
+</a>
 
 [Logicdan](https://logicdan.com) es una plataforma de pruebas lógicas. Consulte los siguientes temas para obtener más detalles:
 
 - [¿Cómo funciona?](#how-it-works)
 - [¿Cómo obtener bolts (<span class="bolt"></span>)?](#how-to-get-bolts)
-- [¿Cómo se moderan a los tramposos?](#how-cheaters-are-moderated)
 - [¿Cómo proponer un buen desafío?](#how-to-propose-good-challenges)
 - [Glosario](#glossary)
 
@@ -72,10 +73,6 @@ Los desafíos propuestos por la comunidad que aún no han sido revisados o que n
 |<font color=#26c9d1>y</font> <span class="bolt"></span>|Haciendo donaciones. Siendo <font color=#26c9d1>y</font> un número entre 1 y 250|
 
 Los bolts (<span class="bolt"></span>) se pueden utilizar para reiniciar ciclos de desafíos en el modo clasificado y enviar propuestas de desafíos.
-
-## <a name="how-cheaters-are-moderated"></a>¿Cómo se moderan a los tramposos?
-
-Conforme a lo descrito en la [página de términos](/es/terms), está prohibida la divulgación, por cualquier medio, de soluciones de desafíos de nivel superior a 4, así como su uso para el progreso ilegítimo. El incumplimiento de esta regla puede resultar en la desactivación de la cuenta.
 
 ## <a name="how-to-propose-good-challenges"></a>¿Cómo proponer buenos desafíos?
 
